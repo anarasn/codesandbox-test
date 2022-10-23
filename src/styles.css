@@ -1,0 +1,84 @@
+.App {
+  width: 300px;
+  margin: 0px auto;
+  text-align: center;
+  border: 1px solid rgb(203, 201, 201);
+  border-radius: 8px;
+  padding: 10px;
+  margin: 20px auto;
+}
+
+.new-task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.new-task input {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+  border: none;
+  background-color: rgb(236, 233, 233);
+}
+
+.new-task input:focus {
+  outline: solid 1px blue;
+}
+
+.btn {
+  width: 50px;
+  padding: 10px;
+  margin-left: 5px;
+  border: 1px solid rgb(203, 201, 201);
+  border-radius: 5px;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.content {
+  font-weight: bold;
+  color: rgb(8, 103, 227) 100%;
+  border-radius: 7px;
+  border: 1px solid rgb(203, 201, 201);
+  height: 350px;
+  text-align: left;
+  overflow-y: scroll;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  list-style-type: none;
+  padding: 10px;
+  border-bottom: solid 1px rgb(203, 201, 201);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.delete {
+  color: black;
+  cursor: pointer;
+}
+
+.clear {
+  margin-top: 10px;
+  background-color: red;
+  color: white;
+  border-radius: 4px;
+  width: 110px;
+  cursor: pointer;
+}
+
+.cross {
+  text-decoration: line-through;
+  color: red;
+}
